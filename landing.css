@@ -23,7 +23,7 @@ body{
 }
 
 .navbar-brand img{
-     width: 100px;
+    width: 100px;
 }
 
 .netflix-row{
@@ -60,11 +60,11 @@ body{
 }
 
 .netflix-dropdown-box .dropdown-menu .dropdown-item{
-     color: rgba(255, 255, 255, 0.646);
-     text-align: center;
-     width: 250px;
-     font-size: 15px;
-     padding: 10px 20px;
+    color: rgba(255, 255, 255, 0.646);
+    text-align: center;
+    width: 250px;
+    font-size: 15px;
+    padding: 10px 20px;
 }
 
 .netflix-dropdown-box .dropdown-menu .dropdown-item:hover{
@@ -142,8 +142,8 @@ i{
     margin-left: 80px;
 }
 .netflix-home-video .content .left img{
-   margin-top: 190px;
-   
+margin-top: 190px;
+
 }
 .netflix-home-video .content .right{
     width: 50%;
@@ -265,18 +265,18 @@ ul{
 
 .service-btn{
     background-color: transparent;
-     margin-left: 30px;
-      color: rgba(255, 255, 255, 0.367);
-      border: 1px solid rgba(255, 255, 255, 0.367);
-      font-size: 15px;
-      font-weight: 100;
+    margin-left: 30px;
+    color: rgba(255, 255, 255, 0.367);
+    border: 1px solid rgba(255, 255, 255, 0.367);
+    font-size: 15px;
+    font-weight: 100;
 }
 
 .copy-right{
     font-size: 15px;
-      font-weight: 200;
-      color: rgb(249, 14, 14);
-      margin-left: 28px;
+    font-weight: 200;
+    color: rgb(249, 14, 14);
+    margin-left: 28px;
 }
 
 
@@ -466,3 +466,4 @@ footer {
         font-size: 16px;
     }
 }
+
