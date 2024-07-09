@@ -467,3 +467,18 @@ footer {
     }
 }
 
+
+.dropdown-menu
+{
+    margin-left: 200px;
+    background-color: #141414;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-color: #333333;
+    color: rgb(249, 14, 14);
+}
