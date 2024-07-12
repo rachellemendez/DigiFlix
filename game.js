@@ -1,4 +1,4 @@
-const words = ['STREAM', 'SUBSCRIBE', 'BINGE', 'PROFILE', 'WATCHLIST', 'GENRE', 'SEARCH', 'PLAY', 'PAUSE', 'EXIT'];
+const words = ['DIGITAL', 'TECHNOLOGY', 'VIRTUAL', 'SELF', 'WELLNESS', 'ONLINE', 'PRIVACY', 'IDENTITY', 'DATA', 'CYBER'];
 const gridSize = 20; // Updated grid size to 20x20
 const grid = Array(gridSize).fill(null).map(() => Array(gridSize).fill(''));
 

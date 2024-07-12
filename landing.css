@@ -5,6 +5,11 @@ body{
     /* position: relative; */
 }
 
+.height
+{
+    height: 180vh;
+}
+
 .netflix-padding-left{
     padding-left: 57px;
 }
@@ -318,7 +323,7 @@ nav a {
 }
 
 .hero {
-    background: url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
+    background: url('./images/pexels-fotios-photos-2267748.jpg') no-repeat center center/cover;
     height: 400px;
     display: flex;
     justify-content: center;
@@ -330,6 +335,12 @@ nav a {
 .hero-content {
     background: rgba(0, 0, 0, 0.6);
     padding: 20px;
+    color: rgba(255, 255, 255, 0.72);
+}
+
+.hero-content p
+{
+    color: rgba(255, 255, 255, 0.72);
 }
 
 .hero h1 {

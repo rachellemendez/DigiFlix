@@ -1,5 +1,6 @@
 body{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.491), rgba(0, 0, 0, 0.416)) , url(./images/login-bg.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.491), rgba(0, 0, 0, 0.416)) , url(./images/adem-ay-Tk9m_HP4rgQ-unsplash.jpg);
+    background-size: cover;
     height: 100vh;
 }
 .login-top{
