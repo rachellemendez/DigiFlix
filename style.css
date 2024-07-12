@@ -20,9 +20,9 @@ body{
 .login-box{
     background-color: rgba(0, 0, 0, 0.899);
     width: 430px;
-    height: 630px;
     border-radius: 5px;
     padding: 50px;
+    margin: 100px auto;
 }
 
 .small-text{
