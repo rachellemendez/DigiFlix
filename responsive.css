@@ -62,9 +62,9 @@ button{
 .card-icon{
     font-size: 17px !important;
 }
-.card-body{
-    top: 80px !important;
-}
+.card-body {
+        display: none !important; /* Force hide the card body */
+    }
 .netflix-card-text{
     font-size: 8px;
 }
