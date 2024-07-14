@@ -5,10 +5,6 @@ body{
     /* position: relative; */
 }
 
-.height
-{
-    height: 180vh;
-}
 
 .netflix-padding-left{
     padding-left: 57px;
@@ -148,6 +144,7 @@ i{
 }
 .netflix-home-video .content .left img{
 margin-top: 190px;
+width: 300px;
 
 }
 .netflix-home-video .content .right{

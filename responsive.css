@@ -1,5 +1,9 @@
 @media(max-width:767.98px){
-    .netflix-padding-left{
+    body{
+        height: 50vh;
+    }
+
+        .netflix-padding-left{
         padding-left: 10px !important;
     }
     
@@ -34,8 +38,8 @@
     margin-left: 25px;
 }
 .netflix-home-video .content .left img{
-    width: 200px;
-    margin-top: 90px !important;
+    width: 140px;
+    margin-top: 60px !important;
 }
 button{
     font-size: 10px !important;
@@ -67,9 +71,7 @@ button{
 .position-slider2{
     top: 0px !important;
 }
-.margin-title{
-    margin-top: 100px;
-}
+
 .margin-title2{
     margin-top: 14px;
 }
