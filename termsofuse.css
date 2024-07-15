@@ -1,42 +1,62 @@
+/* Styles for Terms of Use page */
+
+/* Body styles */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #f0f0f0;
 }
 
+/* Container styles */
 .terms-container {
     max-width: 800px;
     margin: 20px auto;
-    padding: 20px;
     background-color: #fff;
-    border-radius: 5px;
+    padding: 20px;
+    border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+h1, h2 {
+    color: #333;
 }
 
 h1 {
     text-align: center;
-    color: #444;
+    margin-bottom: 20px;
 }
 
 h2 {
-    color: #555;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
-p {
-    margin-bottom: 15px;
-}
-
-strong {
-    color: #444;
+/* Paragraph and list styles */
+p, ul {
+    color: #666;
+    line-height: 1.6;
 }
 
 ul {
-    margin-bottom: 15px;
+    margin-left: 20px;
 }
 
-ul li {
-    margin-bottom: 8px;
+/* Back button styles */
+.back-button {
+    display: block;
+    width: 120px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #e50914; /* Netflix red color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #be0811; /* Darker shade of Netflix red on hover */
 }

@@ -36,6 +36,40 @@
     .article {
       max-width: 50%; /* Adjust the value to resize the article area */
     }
+
+    .references {
+      background-color: #fff; /* White background */
+      color: #000; /* Black text */
+      padding: 20px;
+      margin-top: 20px;
+      text-align: center; /* Center the text */
+      border-radius: 10px; /* Rounded corners */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow for a lifted effect */
+    }
+
+    .references h3 {
+      margin-bottom: 15px;
+    }
+
+    .references ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .references li {
+      margin-bottom: 10px;
+    }
+
+    .references a {
+      color: #000; /* Black text */
+      text-decoration: none;
+      transition: color 0.3s; /* Smooth color transition */
+    }
+
+    .references a:hover {
+      color: #e50914; /* Netflix red on hover */
+      text-decoration: underline;
+    }
   </style>
   <title>Introduction to Digital Identity</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -55,17 +89,9 @@
               <div class="netflix-nav">
                 <section>
                   <a href="landingpage.html"><button>Home</button></a>
-                  <button class="btn dropdown-toggle" type="button" id="articlesDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-                    Articles
-                  </button>
-                  <ul class="dropdown-menu" aria-labelledby="articlesDropdown">
-                    <li><a class="dropdown-item" href="#">Article 1</a></li>
-                    <li><a class="dropdown-item" href="#">Article 2</a></li>
-                    <li><a class="dropdown-item" href="#">Article 3</a></li>
-                    <li><a class="dropdown-item" href="#">Article 4</a></li>
-                  </ul>
                   <a href="landingpage.html#videos"><button>Videos</button></a>
-                  <button>Resources</button>
+                  <a href="landingpage.html#articles"><button>Articles</button></a>
+                  <a href="resources.html"><button>Resources</button></a>
                   <a href="game.html"><button>Game</button></a>
                   <a href="aboutUs.html"><button>About Us</button></a>
                 </section>
@@ -76,10 +102,10 @@
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                   <li><a class="dropdown-item" href="landingpage.html">Home</a></li>
-                  <li><a class="dropdown-item" href="articles.html">Articles</a></li>
                   <li><a class="dropdown-item" href="landingpage.html#videos">Videos</a></li>
+                  <li><a class="dropdown-item" href="landingpage.html#articles">Articles</a></li>
+                  <li><a class="dropdown-item" href="resources.html">Resources</a></li>
                   <li><a class="dropdown-item" href="game.html">Game</a></li>
-                  <li><a class="dropdown-item" href="#">Resources</a></li>
                   <li><a class="dropdown-item" href="aboutUs.html">About Us</a></li>
                 </ul>
               </div>
@@ -98,7 +124,7 @@
       <!-- photo and article -->
       <div class="center-container">
         <div class="content-container">
-          <img src="images/digital-wellbeing-tips.jpg" alt="6 Ways to Protect you and your Families Digital Wellbeing" class="custom-img">
+          <img src="./digital-wellbeing-tips.jpg" alt="6 Ways to Protect you and your Families Digital Wellbeing" class="custom-img">
           <div class="article">
             <h2>Your Digital Wellbeing Matters</h2>
             <p>In our increasingly digital world, maintaining digital wellbeing is crucial. It encompasses not just protecting our data but also ensuring our online habits promote a healthy balance in our lives. By staying aware of how much time we spend online, setting boundaries for screen time, and being mindful of our digital consumption, we can foster a healthier relationship with technology.</p>
@@ -108,6 +134,26 @@
         </div>
       </div>
     </div>
+  </div>
+
+  <!-- references section -->
+  <div class="references">
+    <h3>References</h3>
+    <ul>
+      <li><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63-3.pdf" target="_blank">National Institute of Standards and Technology (NIST). (n.d.). Digital Identity Guidelines.</a></li>
+      <li><a href="https://www.weforum.org/agenda/2020/09/digital-identity-what-is-it-and-why-does-it-matter/" target="_blank">World Economic Forum. (2020, September). Digital Identity: What Is It and Why Does It Matter?</a></li>
+      <li><a href="https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/digital-identity" target="_blank">McKinsey & Company. (n.d.). Digital Identity.</a></li>
+      <li><a href="https://www.open.edu/openlearn/education-development/managing-your-digital-identity/content-section-0" target="_blank">The Open University. (n.d.). Managing Your Digital Identity.</a></li>
+      <li><a href="https://us.norton.com/internetsecurity-privacy-cleaning-digital-footprint.html" target="_blank">NortonLifeLock. (n.d.). Internet Security & Privacy: Cleaning Up Your Digital Footprint.</a></li>
+      <li><a href="https://us.norton.com/internetsecurity-privacy-tips-for-protecting-your-digital-self.html" target="_blank">NortonLifeLock. (n.d.). Internet Security & Privacy: Tips for Protecting Your Digital Self.</a></li>
+      <li><a href="https://www.ncsc.gov.uk/cyberaware" target="_blank">National Cyber Security Centre. (n.d.). Cyber Aware: Secure Your Devices.</a></li>
+      <li><a href="https://www.consumer.ftc.gov/articles/0272-how-keep-your-personal-information-secure-online" target="_blank">Federal Trade Commission. (n.d.). Protecting Your Privacy Online.</a></li>
+      <li><a href="https://staysafeonline.org/stay-safe-online/online-safety-basics/" target="_blank">Stay Safe Online. (n.d.). Online Safety Basics.</a></li>
+      <li><a href="https://www.cisa.gov/cybersecurity" target="_blank">Cybersecurity & Infrastructure Security Agency (CISA). (n.d.). Cybersecurity Tips.</a></li>
+      <li><a href="https://www.strangesocial.com/your-digital-wellbeing-matters/" target="_blank">Strange Social. (n.d.). Your Digital Wellbeing Matters.</a></li>
+      <li><a href="https://spiritualearth.com/digital-wellbeing/" target="_blank">Spiritual Earth. (n.d.). Digital Wellbeing.</a></li>
+      <li><a href="https://www.emersonhospital.org/clinical-services/wellness/digital-wellness-program" target="_blank">Emerson Hospital. (n.d.). Digital Wellness Program.</a></li>
+    </ul>
   </div>
 
   <!-- Optional JavaScript; choose one of the two! -->

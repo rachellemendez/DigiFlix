@@ -58,3 +58,22 @@ button.accordion.active, button.accordion:hover {
 .panel ol, .panel ul {
     padding-left: 20px;
 }
+
+
+/* Back button styles */
+.back-button {
+    display: block;
+    width: 120px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #e50914; /* Netflix red color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #be0811; /* Darker shade of Netflix red on hover */
+}
