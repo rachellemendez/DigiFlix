@@ -12,13 +12,22 @@
     <link rel="stylesheet" href="footer.css">
     <title>About Us</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+      .navbar {
+        background-color: #000; /* Black background */
+      }
+
+      .container{
+        margin-top: 100px;
+      }
+    </style>
   </head>
   <body>
     
     <div class="about-us">
     <div style="position: relative;">
     <!-- header -->
-    <nav class="navbar navbar-expand-lg netflix-navbar netflix-padding-left netflix-padding-right">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark netflix-navbar netflix-padding-left netflix-padding-right fixed-top">
       <div class="container-fluid">
         <div class="netflix-row">
           <div class="left d-flex align-items-center">
@@ -49,10 +58,7 @@
               </ul>
             </div>
           </div>
-          <div class="right d-flex align-items-center">
-            <i class="bi bi-search"></i>
-            <i class="bi bi-bell-fill"></i>
-            <section class="netflix-profile">
+
 
             </section>
           </div>
@@ -64,12 +70,6 @@
 
     <!-- video -->
 
-    <section class="hero">
-        <div class="hero-content">
-            <h1>About Us</h1>
-            <p>Empowering online identity mastery through global education resources.</p>
-        </div>
-    </section>
     <section class="about">
         <div class="container">
             <h2>Our Mission</h2>
@@ -78,22 +78,23 @@
             <p>As part of our coursework on understanding the world, we have undertaken the task of creating a digital self website to extend and create value, aiming to enrich our understanding of global perspectives and leverage digital platforms for meaningful exploration and learning.</p>
             <h2>Our Values</h2>
             <p>We believe in digital self education that involves prioritizing privacy, security, ethical behavior, digital literacy, well-being, access, responsibility, and continuous learning to ensure balanced and responsible engagement with digital technologies.</p>
+            <div class="container">
+              <h2>Meet Our Team</h2>
+              <div class="team-cards">
+                  <div class="team-card">
+                      <img src="./images/pic.jpeg" alt="John Doe">
+                      <h3>Jamil Mariano</h3>
+                  </div>
+                  <div class="team-card">
+                      <img src="./chellepic.jpg" alt="Jane Smith">
+                      <h3>Rachelle Mendez</h3>
+                  </div>
+              </div>
+          </div>
         </div>
     </section>
     <section class="team">
-        <div class="container">
-            <h2>Meet Our Team</h2>
-            <div class="team-cards">
-                <div class="team-card">
-                    <img src="./images/pic.jpeg" alt="John Doe">
-                    <h3>Jamil Mariano</h3>
-                </div>
-                <div class="team-card">
-                    <img src="./chellepic.jpg" alt="Jane Smith">
-                    <h3>Rachelle Mendez</h3>
-                </div>
-            </div>
-        </div>
+        
     </section>
 </div>
 
